@@ -1,5 +1,5 @@
-FROM apluslms/grade-python:3.13-4.13-4.10
+FROM apluslms/grade-python:3.13-5.0-4.14
 
-ARG VERSION=4.15.3.0
+ARG VERSION=5.3.3.0
 
 RUN pip_install z3-solver==$VERSION
